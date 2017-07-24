@@ -159,7 +159,7 @@
 	k.get_contents_to_filename("/tmp/KS3SDK_download_test")
 	#保存到文件句柄
 	f=open("/tmp/test_file","rb")
-	k.set_contents_from_file(f)
+	k.get_contents_from_file(f)
 
 #### Put Object
 *上传Object数据* 
